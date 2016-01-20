@@ -1,0 +1,52 @@
+/* Styles.css */
+
+@font-face{
+    font-family:"source";
+    src: url('fonts/sourcesanspro-black-webfont.eot');
+    src: url('fonts/sourcesanspro-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-black-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-black-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-black-webfont.svg#LearningCurveProRegular') format('svg');
+    font-weight:900;
+    font-style:normal;
+}
+body{
+    background:rgba(30,30,30,0.1);
+    font-family:Verdana, Arial, sans-serif;
+    font-size:16px;
+    line-height:1.3em;
+    color:#333;
+}
+h1, h2{
+    font-family:"source";
+    text-transform:uppercase;
+}
+h1{
+    font-size:2.5em;
+    line-height:1.1em;
+    text-align:center;
+    color:#7bc6bc;
+}
+h2{
+    margin-top:40px;
+}
+.alignright{
+    float:right;
+}
+#page{
+    background:url(images/background.png) 0 0 repeat #ccc;
+    margin:30px auto;
+    padding:30px;
+    width:50%;
+}
+@media (max-width:768px){
+    #page{
+        width:80%;
+    }
+}
+.headline{
+    text-align:center;
+}
+section{
+    margin-top:30px;
+}
